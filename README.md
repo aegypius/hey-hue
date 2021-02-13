@@ -2,17 +2,21 @@
 
 GraphQL Server to interact with your “Philips Hue” Bridge 
 
+This package is in **early stage** of development, do not expect anything to work yet.
 
 ## Installation 
 
 ``` 
-npm install hue-demo
+git clone https://github.com/aegypius/hey-hue.git
+cd hey-hue
+npm install
+npx lerna exec npm install
 ```
 
 ## Starting server 
 
 ```
-npm run start 
+npx lerna run start
 ```
 
 ## Discovering Bridges
